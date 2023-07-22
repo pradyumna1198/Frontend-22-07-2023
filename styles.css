@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #fff;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+ .left{
+    
+ }
+
+ .right{
+
+ }
+
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  .recipe-card {
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .recipe-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .like-btn {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .liked {
+    background-color: #e74c3c;
+  }
+  
